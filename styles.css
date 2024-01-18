@@ -52,6 +52,16 @@ h1, h2, h3, h4, h5{
     width: 600px;
  }
 
+ #video-lid1{
+   width: 200px;
+}
+#video-lid2{
+   width: 200px;
+}
+#video-lid3{
+   width: 200px;
+}
+
 .video-js{
     position: relative !important;
     height: 250px;
@@ -63,9 +73,13 @@ h1, h2, h3, h4, h5{
     
 }
 
+.video-js-audio .vjs-volume-panel {
+   display:flex !important;
+ }
+
 
 .video-js .vjs-volume-panel {
-    display:none !important;
+    display:none;
   }
  .container-video{
     display: block;

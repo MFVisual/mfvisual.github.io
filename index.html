@@ -20,37 +20,49 @@
 
       <!--TEST-->
       <div id="menu" class="menu" style="z-index: 999; display: none;">
-        
+
         <div class="menu_item first_item" onclick="goTo(0)">
-          <p style="white-space: nowrap; font-size: 15px;">VW: Velocidad y Vorticidad</p>
+          <p style="white-space: nowrap; font-size: 15px;">Mecánica de Fluidos es Movimiento</p>
         </div>
 
         <div class="menu_item" onclick="goTo(1)">
-          <p style="white-space: nowrap; font-size: 15px;">D: Viscosidad y Difusión de Momentum</p>
+          <p style="white-space: nowrap; font-size: 15px;">Ci: Cinemática</p>
         </div>
 
         <div class="menu_item" onclick="goTo(2)">
-          <p style="white-space: nowrap; font-size: 15px;">CL: Capa Límite sobre Placa Plana</p>
+          <p style="white-space: nowrap; font-size: 15px;">VW: Velocidad y Vorticidad</p>
         </div>
 
         <div class="menu_item" onclick="goTo(3)">
-          <p style="white-space: nowrap; font-size: 15px;">S: Flujo separado</p>
+          <p style="white-space: nowrap; font-size: 15px;">D: Viscosidad y Difusión de Momentum</p>
         </div>
 
         <div class="menu_item" onclick="goTo(4)">
-          <p style="white-space: nowrap; font-size: 15px;">LD: Sustentación y Arrastre</p>
+          <p style="white-space: nowrap; font-size: 15px;">CL: Capa Límite sobre Placa Plana</p>
         </div>
 
         <div class="menu_item" onclick="goTo(5)">
-          <p style="white-space: nowrap; font-size: 15px;">K. Inestabilidad de flujo separado</p>
+          <p style="white-space: nowrap; font-size: 15px;">S: Flujo separado</p>
         </div>
 
         <div class="menu_item" onclick="goTo(6)">
+          <p style="white-space: nowrap; font-size: 15px;">LD: Sustentación y Arrastre</p>
+        </div>
+
+        <div class="menu_item" onclick="goTo(7)">
+          <p style="white-space: nowrap; font-size: 15px;">K. Inestabilidad de flujo separado</p>
+        </div>
+
+        <div class="menu_item" onclick="goTo(8)">
           <p style="white-space: nowrap; font-size: 15px;">Cil. Flujo Alrededor de un cilindro</p>
         </div>
 
-        <div class="menu_item last_item" onclick="goTo(7)">
+        <div class="menu_item" onclick="goTo(9)">
           <p style="white-space: nowrap; font-size: 15px;">Dif. Flujo en un difusor</p>
+        </div>
+
+        <div class="menu_item last_item" onclick="goTo(10)">
+          <p style="white-space: nowrap; font-size: 15px;">Lid. Flujo 3D: Cilindro con tapa rotando</p>
         </div>
         
       </div>
@@ -99,8 +111,125 @@
         </div>
     </div>
 
-    <!--PAGE 2, VW-->
+    <!--PAGE 1, MF es Mov-->
     <div class="page mdl-grid" id="page1">
+      <h4 class="page_title">Mecánica de Fluidos es Movimiento</h4>
+      <div class="page_content">
+
+        <div class="div_cover">
+          <video id="my-video" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
+            <source src="videos/In 1.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div class="div_cover">
+          <video id="my-video" class="video-js-audio video-js" muted controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
+            <source src="videos/In 2.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div class="div_cover">
+          <video id="my-video" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
+            <source src="videos/In 3.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div class="div_cover">
+          <video id="my-video" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
+            <source src="videos/In 4.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div class="div_cover">
+          <video id="my-video" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
+            <source src="videos/In 5.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div class="div_cover">
+          <video id="my-video" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
+            <source src="videos/In 6.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div class="div_cover">
+          <video id="my-video" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
+            <source src="videos/In 7.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+      </div>
+    </div>
+
+    <!--PAGE 2, Ci-->
+    <div class="page mdl-grid" id="page2">
+      <h4 class="page_title">Ci: Cinemática</h4>
+      <div class="page_content">
+
+        <div class="div_cover">
+          <video id="my-video" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
+            <source src="videos/Ci 1.mp4" type="video/mp4" />
+          </video>
+          <p class="title_video">Campo de velocidad (1)</p>
+        </div>
+
+        <div class="div_cover">
+          <video id="my-video" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
+            <source src="videos/Ci 2.mp4" type="video/mp4" />
+          </video>
+          <p class="title_video">Campo de velocidad (2)</p>
+        </div>
+
+        <div class="div_cover">
+          <video id="my-video" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
+            <source src="videos/Ci 3.mp4" type="video/mp4" />
+          </video>
+          <p class="title_video">Trayectorias (3D)</p>
+        </div>
+
+        <div class="div_cover">
+          <video id="my-video" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
+            <source src="videos/Ci 4.mp4" type="video/mp4" />
+          </video>
+          <p class="title_video">Velocidad y trayectoria</p>
+        </div>
+
+        <div class="div_cover">
+          <video id="my-video" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
+            <source src="videos/Ci 5.mp4" type="video/mp4" />
+          </video>
+          <p class="title_video">Euler vs Lagrange (1)</p>
+        </div>
+
+        <div class="div_cover">
+          <video id="my-video" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
+            <source src="videos/Ci 6.mp4" type="video/mp4" />
+          </video>
+          <p class="title_video">Euler vs Lagrange (2)</p>
+        </div>
+
+        <div class="div_cover">
+          <video id="my-video" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
+            <source src="videos/Ci 7.mp4" type="video/mp4" />
+          </video>
+          <p class="title_video">Flujo Estable: líneas de corriente</p>
+        </div>
+
+        <div class="div_cover">
+          <video id="my-video" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
+            <source src="videos/Ci 8.mp4" type="video/mp4" />
+          </video>
+          <p class="title_video">Flujo inestable: líneas de corriente vs streak</p>
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+    <!--PAGE 3, VW-->
+    <div class="page mdl-grid" id="page3">
       <h4 class="page_title">VW: Velocidad y Vorticidad</h4>
       <div class="page_content">
 
@@ -150,15 +279,16 @@
 
         <div class="div_cover">
           <video id="my-video" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
-            <source src="videos/VW1.mp4" type="video/mp4" />
+            <source src="videos/VW7.mp4" type="video/mp4" />
           </video><!--TODO: No hay video-->
           <p class="title_video">Láminas de vorticidad (2)</p>
         </div>
 
       </div>
     </div>
-    <!--PAGE 2, D-->
-    <div class="page mdl-grid" id="page2">
+
+    <!--PAGE 4, D-->
+    <div class="page mdl-grid" id="page4">
       <h4 class="page_title">D: Viscosidad y Difusión de Momentum</h4>
       <div class="page_content">
 
@@ -167,13 +297,6 @@
             <source src="videos/Difusion 1.mp4" type="video/mp4" />
           </video>
           <p class="title_video">Movimiento Térmico</p>
-        </div>
-
-        <div class="div_cover" >
-          <video id="my-video" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
-            <source src="videos/Difusion 3.mp4" type="video/mp4" />
-          </video><!--TODO: REPITE VIDEO-->
-          <p class="title_video">Movimiento Térmico y Macroscópico</p>
         </div>
 
         <div class="div_cover">
@@ -220,14 +343,14 @@
       </div>
     </div>
 
-    <!--PAGE 3, CL-->
-    <div class="page mdl-grid" id="page3">
+    <!--PAGE 5, CL-->
+    <div class="page mdl-grid" id="page5">
       <h4 class="page_title">CL: Capa Límite sobre Placa Plana</h4>
       <div class="page_content">
 
         <div class="div_cover" style="width: 350px; margin: 15px;">
           <video id="my-video" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
-            <source src="videos/CL 1.2.mp4" type="video/mp4" />
+            <source src="videos/CL 1.1.mp4" type="video/mp4" />
           </video><!--REPETIDO-->
           <p class="title_video">Capa Límite sobre Placa Plana</p>
         </div>
@@ -265,8 +388,8 @@
       </div>
     </div>
 
-    <!--PAGE 4, S-->
-    <div class="page mdl-grid" id="page4">
+    <!--PAGE 6, S-->
+    <div class="page mdl-grid" id="page6">
       <h4 class="page_title">S: Flujo separado</h4>
       <div class="page_content">
 
@@ -315,8 +438,8 @@
       </div>
     </div>
 
-    <!--PAGE 5, D: VISC-->
-    <div class="page mdl-grid" id="page5">
+    <!--PAGE 7, D: VISC-->
+    <div class="page mdl-grid" id="page7">
       <h4 class="page_title">LD: Sustentación y Arrastre</h4>
       <div class="page_content">
 
@@ -341,8 +464,8 @@
       </div>
     </div>
 
-    <!--PAGE 6, K-->
-    <div class="page mdl-grid" id="page6">
+    <!--PAGE 8, K-->
+    <div class="page mdl-grid" id="page8">
       <h4 class="page_title">K. Inestabilidad de flujo separado</h4>
       <div class="page_content">
 
@@ -363,8 +486,8 @@
       </div>
     </div>
 
-    <!--PAGE 7, Cil.-->
-    <div class="page mdl-grid" id="page7">
+    <!--PAGE 9, Cil.-->
+    <div class="page mdl-grid" id="page9">
       <h4 class="page_title">Cil. Flujo Alrededor de un cilindro</h4>
       <div class="page_content">
 
@@ -414,8 +537,8 @@
       </div>
     </div>
 
-    <!--PAGE 8, Dif.-->
-    <div class="page mdl-grid" id="page8">
+    <!--PAGE 10, Dif.-->
+    <div class="page mdl-grid" id="page10">
       <h4 class="page_title">Dif. Flujo en un difusor</h4>
       <div class="page_content">
 
@@ -464,6 +587,35 @@
       </div>
     </div>
 
+    <!--PAGE 11, Ci-->
+    <div class="page mdl-grid" id="page11">
+      <h4 class="page_title">Lid. Flujo 3D: Cilindro con tapa rotando</h4>
+      <div class="page_content">
+
+        <div class="div_cover">
+          <video id="video-lid1" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
+            <source src="videos/Lid 1.1.mp4" type="video/mp4" />
+          </video>
+          <p class="title_video">Campo de velocidad 1<br>dentro de cilindro</p>
+        </div>
+
+        <div class="div_cover">
+          <video id="video-lid2" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
+            <source src="videos/Lid1.2.mp4" type="video/mp4" />
+          </video>
+          <p class="title_video">Campo de velocidad 2<br>dentro de cilindro</p>
+        </div>
+
+        <div class="div_cover">
+          <video id="video-lid3" class="video-js" controls preload="auto" data-setup='{ "playbackRates": [0.25, 0.5, 1, 1.5, 2, 3]}'>
+            <source src="videos/Lid 2.1.mp4" type="video/mp4" />
+          </video>
+          <p class="title_video">Campo de velocidad 3<br>dentro de cilindro</p>
+        </div>
+
+      </div>
+    </div>
+
 
 
 
@@ -474,7 +626,7 @@
       var navigator_visible = false
       var menu_visible = false
 
-      pages = ['VW: Velocidad y Vorticidad', 'D: Viscosidad y Difusión de Momentum', 'CL: Capa Límite sobre Placa Plana','S: Flujo separado','LD: Sustentación y Arrastre','K. Inestabilidad de flujo separado','Cil. Flujo Alrededor de un cilindro','Dif. Flujo en un difusor']
+      pages = ['Mecánica de Fluidos es Movimiento','Ci: Cinemática','VW: Velocidad y Vorticidad', 'D: Viscosidad y Difusión de Momentum', 'CL: Capa Límite sobre Placa Plana','S: Flujo separado','LD: Sustentación y Arrastre','K. Inestabilidad de flujo separado','Cil. Flujo Alrededor de un cilindro','Dif. Flujo en un difusor','Lid. Flujo 3D: Cilindro con tapa rotando']
 
       function set_navigator(i){
         $("#navigator_text").fadeOut(400, function() {
@@ -551,7 +703,49 @@
                     invisible_navigator()
                 }
           }  
-          else*/ if(scroll_position+10>=$('#page8').position().top-height_middle ){
+          else*/ if(scroll_position+10>=$('#page11').position().top-height_middle ){
+              if(!navigator_visible){
+                    navigator_visible = true
+                    visible_navigator()
+                }
+              if(i_page != 11){
+                i_page = 11
+                set_navigator(i_page)
+                if(!navigator_visible){
+                    navigator_visible = true
+                    visible_navigator()
+                }
+              }
+          } 
+          else if(scroll_position+10>=$('#page10').position().top-height_middle ){
+              if(!navigator_visible){
+                    navigator_visible = true
+                    visible_navigator()
+                }
+              if(i_page != 10){
+                i_page = 10
+                set_navigator(i_page)
+                if(!navigator_visible){
+                    navigator_visible = true
+                    visible_navigator()
+                }
+              }
+          } 
+          else if(scroll_position+10>=$('#page9').position().top-height_middle ){
+              if(!navigator_visible){
+                    navigator_visible = true
+                    visible_navigator()
+                }
+              if(i_page != 9){
+                i_page = 9
+                set_navigator(i_page)
+                if(!navigator_visible){
+                    navigator_visible = true
+                    visible_navigator()
+                }
+              }
+          } 
+          else if(scroll_position+10>=$('#page8').position().top-height_middle ){
               if(!navigator_visible){
                     navigator_visible = true
                     visible_navigator()
